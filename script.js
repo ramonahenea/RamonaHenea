@@ -1,7 +1,3 @@
-<script src="https://unpkg.com/split-type"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
-<script>
 const split = new SplitType(".accent-word", {
     types: "chars"
 });
