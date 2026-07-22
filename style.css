@@ -331,11 +331,12 @@
       grid-column: 7 / span 6;
     }
 
-    .project-visual {
-      position: relative;
-      overflow: hidden;
-      background: var(--surface);
-    }
+    .project-visual video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
 
     .project-card:nth-child(1) .project-visual {
       aspect-ratio: 4 / 3;
